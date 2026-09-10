@@ -10,14 +10,14 @@
     <input type="text" id="msgInput" placeholder="Nhập gì đó đi...">
     <button onclick="sendMsg()">Gửi</button>
     
-    <h2>Các lời nhắn:</h2>
+    <h1>Các lời nhắn:</h1>
     <ul id="list"></ul>
 
     <script>
         const SUPABASE_URL = 'https://dbxtwsnfhdsvvhpwwefr.supabase.co'; 
         const SUPABASE_KEY = 'sb_publishable_rexxz2BRDiT2WAzsihvJlw_zZSj9ZJR';
         
-        // ĐÃ SỬA TÊN BIẾN Ở ĐÂY:
+    
         const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
         // Hàm lấy dữ liệu
